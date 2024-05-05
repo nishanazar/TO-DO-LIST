@@ -1,9 +1,11 @@
 {
-  "name": "to-do-list",
-  "version": "1.0.0",
+  "name": "nishanazar_to-do-list",
+  "version": "2.0.5",
   "description": "This is to do list",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
+  "publishConfig": {"access": "public"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
